@@ -9,6 +9,21 @@ Logger library part of my Silver Sparrow framework. Silver Sparrow is a (private
 3. Add "-DSSLogEnabled" flag to your target's "Build Settings" -> "Other C Flags". This will enable the log. Remove this flag in order to turn the log off.
 4. Import to all header files where you are going to use the logger
 
-* In order to log with the Information tag SSLog_Info(@"information");
-* In order to log with the Error tag SSLog_Error(@"error");
-* In order to log with the Warning tag SSLog_Warn(@"warning");
+* In order to log with the Information tag
+	 SSLog_Info(@"information");
+* In order to log with the Error tag
+	 SSLog_Error(@"error");
+* In order to log with the Warning tag 
+	SSLog_Warn(@"warning");
+
+## Important
+You can download, use and redistribute this framework. Just keep the copyright information in SSLog.h
+
+//
+//  SSLog.h
+//  SSLog
+//
+//  Created by Ezequiel Aceto on 8/20/12.
+//  Copyright (c) 2012 Ezequiel Aceto. All rights reserved.
+//  www.ezequielaceto.com.ar
+

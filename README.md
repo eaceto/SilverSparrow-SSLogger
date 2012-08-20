@@ -19,12 +19,4 @@ Logger library part of my Silver Sparrow framework. Silver Sparrow is a (private
 ## Important
 You can download, use and redistribute this framework. Just keep the copyright information in SSLog.h
 
-//
-//  SSLog.h
-//  SSLog
-//
-//  Created by Ezequiel Aceto on 8/20/12.
-//  Copyright (c) 2012 Ezequiel Aceto. All rights reserved.
-//  www.ezequielaceto.com.ar
-
 Thanks!

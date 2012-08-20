@@ -1,0 +1,239 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F4E6C0115E29606008999DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F4E6C0015E29606008999DF /* Foundation.framework */; };
+		3F4E6C0615E29606008999DF /* SSLoger.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3F4E6C0515E29606008999DF /* SSLoger.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3F4E6BFB15E29606008999DF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				3F4E6C0615E29606008999DF /* SSLoger.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3F4E6BFD15E29606008999DF /* libSSLoger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSSLoger.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F4E6C0015E29606008999DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F4E6C0415E29606008999DF /* SSLoger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSLoger-Prefix.pch"; sourceTree = "<group>"; };
+		3F4E6C0515E29606008999DF /* SSLoger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSLoger.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F4E6BFA15E29606008999DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4E6C0115E29606008999DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F4E6BF215E29606008999DF = {
+			isa = PBXGroup;
+			children = (
+				3F4E6C0215E29606008999DF /* SSLog */,
+				3F4E6BFF15E29606008999DF /* Frameworks */,
+				3F4E6BFE15E29606008999DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F4E6BFE15E29606008999DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F4E6BFD15E29606008999DF /* libSSLoger.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F4E6BFF15E29606008999DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F4E6C0015E29606008999DF /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F4E6C0215E29606008999DF /* SSLog */ = {
+			isa = PBXGroup;
+			children = (
+				3F4E6C0515E29606008999DF /* SSLoger.h */,
+				3F4E6C0315E29606008999DF /* Supporting Files */,
+			);
+			name = SSLog;
+			path = SSLoger;
+			sourceTree = "<group>";
+		};
+		3F4E6C0315E29606008999DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F4E6C0415E29606008999DF /* SSLoger-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F4E6BFC15E29606008999DF /* SSLoger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F4E6C0B15E29606008999DF /* Build configuration list for PBXNativeTarget "SSLoger" */;
+			buildPhases = (
+				3F4E6BF915E29606008999DF /* Sources */,
+				3F4E6BFA15E29606008999DF /* Frameworks */,
+				3F4E6BFB15E29606008999DF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSLoger;
+			productName = SSLoger;
+			productReference = 3F4E6BFD15E29606008999DF /* libSSLoger.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F4E6BF415E29606008999DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Ezequiel Aceto";
+			};
+			buildConfigurationList = 3F4E6BF715E29606008999DF /* Build configuration list for PBXProject "SSLoger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F4E6BF215E29606008999DF;
+			productRefGroup = 3F4E6BFE15E29606008999DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F4E6BFC15E29606008999DF /* SSLoger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F4E6BF915E29606008999DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3F4E6C0915E29606008999DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F4E6C0A15E29606008999DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F4E6C0C15E29606008999DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SSLoger.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSLoger/SSLoger-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3F4E6C0D15E29606008999DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SSLoger.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSLoger/SSLoger-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F4E6BF715E29606008999DF /* Build configuration list for PBXProject "SSLoger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F4E6C0915E29606008999DF /* Debug */,
+				3F4E6C0A15E29606008999DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F4E6C0B15E29606008999DF /* Build configuration list for PBXNativeTarget "SSLoger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F4E6C0C15E29606008999DF /* Debug */,
+				3F4E6C0D15E29606008999DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F4E6BF415E29606008999DF /* Project object */;
+}
